@@ -2,10 +2,10 @@
 
 Starter files for intro web design/development
 
-STUDENTS: remove this line and the ones above it. Add text that describes your project. Include your name, web address, code/image citations, and any notes. Failure to remove this notice and replace it with appropriate text *will* reduce your grade.
-
-
-
+Name: Shayna Cook
+Project: Content and Form- Harry Potter project
+Code Credit:
+Menu: https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar
 ***
 
 ### About this folder
@@ -19,4 +19,3 @@ Compiled by [David Ramos](http://imaginaryterrain.com)
 The code structure is designed for clarity rather than for browser performance. (Notably, we break CSS out into several files, to help keep code organized.) Even so, the slowdowns will be insignificant for most student/personal sites, and the speed fixes are easy to make.
 
 This project includes elements from HTML5 Boilerplate (see doc/h5bp/ for more).
-

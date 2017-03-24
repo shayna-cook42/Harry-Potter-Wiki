@@ -16,16 +16,6 @@ hgroup, header, footer, address, nav {
 
 /*	Generally, you will only want one container element in
 	the document, wrapping around the main content area. */
-.container1 {
-	margin-top: 1em;
-	margin-right: auto;
-	margin-bottom: 1em;
-	margin-left: auto;
-	width: 90%;
-	max-width: 1200px;
-	padding: 2em;
-	border: 1px solid #eee;
-}
 
 .container2 {
 	margin-top: 1em;
@@ -35,7 +25,7 @@ hgroup, header, footer, address, nav {
 	width: 90%;
 	max-width: 1200px;
 	padding: 2em;
-	border: 1px solid #eee;
+	border: 1px solid #000;
 	text-align: center;
 }
 
@@ -48,8 +38,9 @@ hgroup, header, footer, address, nav {
 	width: 90%;
 	max-width: 1200px;
 	padding: 2em;
-	border: 1px solid #eee;
+	border: 0px solid #eee;
 	text align: center;
+	color: #fff; 
 
 }
 
@@ -59,9 +50,29 @@ hgroup, header, footer, address, nav {
 	background-image: url('../img/Book1.jpg');
 	background-repeat: no-repeat;
 	background-position: center top;
+
 }
 
 .h1 {
 
 	text-align: center;
+}
+
+.main-text {
+
+		margin-top: 0;
+		margin-right: auto;
+		margin-bottom: 0;
+		margin-left: auto;
+		width: 90%;
+		max-width: 1200px;
+		padding: 5em;
+		border: 0px solid #000;
+		text-align: center;
+		font-family: Georgia, "Times New Roman",Times,serif;
+		font-size: 16px;
+		line-height: 1.5em;
+		color: #000;
+
+
 }
