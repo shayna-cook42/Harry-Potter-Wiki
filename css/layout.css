@@ -40,7 +40,7 @@ hgroup, header, footer, address, nav {
 	padding: 2em;
 	border: 0px solid #eee;
 	text align: center;
-	color: #fff; 
+	color: #fff;
 
 }
 
@@ -53,26 +53,27 @@ hgroup, header, footer, address, nav {
 
 }
 
-.h1 {
+.h3 {
 
 	text-align: center;
+	font-size: 20px
 }
 
 .main-text {
 
-		margin-top: 0;
+		margin-top: 10px;
 		margin-right: auto;
 		margin-bottom: 0;
 		margin-left: auto;
 		width: 90%;
 		max-width: 1200px;
 		padding: 5em;
-		border: 0px solid #000;
+		border: 20px solid #000;
 		text-align: center;
 		font-family: Georgia, "Times New Roman",Times,serif;
 		font-size: 16px;
 		line-height: 1.5em;
-		color: #000;
+		color: #fff;
 
 
 }
