@@ -27,7 +27,7 @@ object {
 #primary_nav_wrap ul a
 {
 	display:block;
-	color:#000;
+	color: #b5925a;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
@@ -46,12 +46,12 @@ object {
 
 #primary_nav_wrap ul li.current-menu-item
 {
-	background:#000
+	background:#b5925a;
 }
 
 #primary_nav_wrap ul li:hover
 {
-	background:#000
+	background:#251101;
 }
 
 #primary_nav_wrap ul ul
@@ -60,7 +60,7 @@ object {
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#fff;
+	background:#251101;
 	padding:0
 }
 

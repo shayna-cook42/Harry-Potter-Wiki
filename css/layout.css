@@ -67,13 +67,14 @@ hgroup, header, footer, address, nav {
 		margin-left: auto;
 		width: 90%;
 		max-width: 1200px;
-		padding: 5em;
-		border: 20px solid #000;
+		padding: 3em;
+		border: 5px solid #b5925a;
 		text-align: center;
 		font-family: Georgia, "Times New Roman",Times,serif;
 		font-size: 16px;
 		line-height: 1.5em;
-		color: #fff;
+		color: #b5925a;
+		background-color: #251101;
 
 
 }
