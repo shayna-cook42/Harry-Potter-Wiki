@@ -41,6 +41,12 @@ hgroup, header, footer, address, nav {
 	border: 0px solid #eee;
 	text align: center;
 	color: #fff;
+	font-family: Georgia, "Times New Roman",Times,serif;
+	font-size: 30px;
+	line-height: 2em;
+	color: #b5925a;
+	text-align: center;
+
 
 }
 
@@ -55,13 +61,6 @@ hgroup, header, footer, address, nav {
 
 .h3 {
 
-	font-family: Georgia, "Times New Roman",Times,serif;
-	font-size: 30px;
-	line-height: 2em;
-	color: #000;
-	text-align: center;
-
-
 }
 
 .main-text {
@@ -72,14 +71,38 @@ hgroup, header, footer, address, nav {
 		margin-left: auto;
 		width: 90%;
 		max-width: 1200px;
-		padding: 3em;
-		border: 5px solid #b5925a;
+		padding: 2em;
+		padding-top: 0em;
+		border: 2px solid #b5925a;
 		text-align: center;
-		font-family: Georgia, "Times New Roman",Times,serif;
-		font-size: 16px;
+		font-family: 'Crimson Text',Times,serif;
+		font-size: 20px;
 		line-height: 1.5em;
 		color: #b5925a;
 		background-color: #251101;
+
+
+}
+
+.title {
+
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 50%;
+	max-width: 1200px;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Arapey', Georgia, serif;
+	font-size: 40px;
+	line-height: 1.5em;
+	color: #b5925a;
+	background-color: #251101;
+	border: 2px solid #b5925a
+
+
+}
 
 
 }

@@ -17,23 +17,25 @@
 	<!-- For production, combine all of the stylesheets -->
 	<link rel="stylesheet" href="css/style.css">
 
-</head>
-<body class="page-front">
+	<link href="https://fonts.googleapis.com/css?family=Arapey|Crimson+Text" rel="stylesheet">
 
-</body>
+
+
 	<!-- Page content goes inside the container -->
 	<!-- In general, you should have only one container per page. -->
-	<div class="container1">
 
-<div class="h3">	<h3>Harry Potter</h3>
-</div>
+
+
 <style>
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #251101;
+		text-align: center;
+		font-family: 'Arapey' Georgia serif;
+
 }
 
 li {
@@ -42,92 +44,126 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: #b5925a;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+		font-family: 'Arapey' Georgia serif;
+
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #000;
+    background-color: #251101;
+		text-align: center;
+		font-family: 'Arapey' Georgia serif;
+
 }
 
 li.dropdown {
     display: inline-block;
+		text-align: center;
+		font-family: 'Crimson Text' Georgia serif;
+
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #251101;
     min-width: 160px;
-    box-shadow: 5px 8px 16px 5px rgba(0,0,0,0.2);
     z-index: 1;
+		text-align: center;
+		border: 2px solid #b5925a;
+		font-family: 'Arapey' Georgia serif;
+
 }
 
 .dropdown-content a {
-    color: black;
+		color: #b5925a;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: center;
+		font-family: 'Arapey' Georgia serif;
+
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #251101;}
 
 .dropdown:hover .dropdown-content {
     display: block;
+		text-align: center;
+		font-family: 'Arapey' Georgia serif;
+
 }
 </style>
 </head>
-<ul>
-  <li><a href="#home">Home</a></li>
+
+<body class="page-front">
+	<div class="title">	Harry Potter
+		<br>
+		and the
+		Large Wikipedia Page
+	</div>
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
   <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Plot</a>
+    <a href="Plot.html" class="dropbtn">Plot</a>
     <div class="dropdown-content">
       <a href="HPSS.html">The Philosophers Stone</a>
-      <a href="#">The Chamber of Secrets</a>
-      <a href="#">The Prisoner of Azkaban</a>
-			<a href="#">The Goblet of Fire</a>
-			<a href="#">The Order of the Phoenix</a>
-			<a href="#">The Half-Blood Prince</a>
-  		<a href="#">The Deathly Hallows</a>
+      <a href="HPCoS.html">The Chamber of Secrets</a>
+      <a href="HPPoA.html">The Prisoner of Azkaban</a>
+			<a href="HPGoF.html">The Goblet of Fire</a>
+			<a href="HPOotP.html">The Order of the Phoenix</a>
+			<a href="HPHbP.html">The Half-Blood Prince</a>
+  		<a href="HPDH.html">The Deathly Hallows</a>
 
 		<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Achievements</a>
+		<a href="Achievements.html" class="dropbtn">Achievements</a>
 			<div class="dropdown-content">
-				<a href="#">Awards</a>
-				<a href="#">Publication History</a>
+				<a href="Fanworks.html">Commercial Success</a>
+				<a href="Awards.html">Awards</a>
+				<a href="PublicationHistory.html">Publication History</a>
 
 		<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Cultural Influence</a>
+		<a href="Reception.html" class="dropbtn">Reception</a>
 			<div class="dropdown-content">
-			<a href="#"> Controversy</a>
+			<a href="Controversy.html"> Social Impact</a>
+			<a href="Controversy.html"> Literary Criticism</a>
+			<a href="Controversy.html"> Controversies</a>
+
 
 			<li class="dropdown">
-			<a href="javascript:void(0)" class="dropbtn">Literary Analysis</a>
+			<a href="LiteraryAnalysis.html" class="dropbtn">Literary Analysis</a>
 			<div class="dropdown-content">
-			<a href="#"> Themes</a>
-			<a href="#"> Origins</a>
-			<a href="#"> Criticisms</a>
+			<a href="Themes.html"> Themes</a>
+			<a href="Origins.html"> Origins</a>
+			<a href="Criticisms.html"> Criticisms</a>
 
 
 		<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Additional Media</a>
+		<a href="AdditionalMedia.html" class="dropbtn">Additional Media</a>
 		    <div class="dropdown-content">
-		      <a href="#">Films</a>
-		      <a href="#">Harry Potter and the Cursed Child</a>
-		      <a href="#">Games</a>
-					<a href="#">Attractions</a>
-					<a href="#">Fanworks</a>
-    </div>
+		      <a href="CursedChild.html">Harry Potter and the Cursed Child</a>
+					<a href="Films.html">Films</a>
+		      <a href="Games.html">Games</a>
+					<a href="Attractions.html">Attractions</a>
+					<a href="Fanworks.html">Fanworks</a>
+
+		<li class="dropdown">
+		<a href="Covers.html" class="dropbtn">Covers</a>
+
+		</div>
   </li>
 </ul>
 
-
+<div class="main-text"> <p>According to Rowling, a major theme in the series is death: "My books are largely about death. They open with the death of Harry's parents. There is Voldemort's obsession with conquering death and his quest for immortality at any price, the goal of anyone with magic. I so understand why Voldemort wants to conquer death. We're all frightened of it." </p>
+<p>Academics and journalists have developed many other interpretations of themes in the books, some more complex than others, and some including political subtexts. Themes such as normality, oppression, survival, and overcoming imposing odds have all been considered as prevalent throughout the series. Similarly, the theme of making one's way through adolescence and "going over one's most harrowing ordeals – and thus coming to terms with them" has also been considered. Rowling has stated that the books comprise "a prolonged argument for tolerance, a prolonged plea for an end to bigotry" and that they also pass on a message to "question authority and... not assume that the establishment or the press tells you all of the truth".</p>
+<p>While the books could be said to comprise many other themes, such as power/abuse of power, violence and hatred, love, loss, prejudice, and free choice, they are, as Rowling states, "deeply entrenched in the whole plot"; the writer prefers to let themes "grow organically", rather than sitting down and consciously attempting to impart such ideas to her readers. Along the same lines is the ever-present theme of adolescence, in whose depiction Rowling has been purposeful in acknowledging her characters' sexualities and not leaving Harry, as she put it, "stuck in a state of permanent pre-pubescence". Rowling has also been praised for her nuanced depiction of the ways in which death and violence affects youth, and humanity as a whole. </p>
+<p>Rowling said that, to her, the moral significance of the tales seems "blindingly obvious". The key for her was the choice between what is right and what is easy, "because that … is how tyranny is started, with people being apathetic and taking the easy route and suddenly finding themselves in deep trouble." </p>
+</div>
 </body>
 </html>
-
 </div>
 
 	<!-- Load scripts -->

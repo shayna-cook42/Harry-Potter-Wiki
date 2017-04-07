@@ -1,24 +1,24 @@
 
 body {
-	font-family: Georgia, "Times New Roman",Times,serif;
-	font-size: 16px;
+	font-family: 'Arapey', serif;
+	font-size: 20px;
 	line-height: 1.5em;
-	color: #222;
+	color: #251101;
 }
 
 page-front  {
 
-	font-family: Georgia, "Times New Roman",Times,serif;
+	font-family: 'Crimson Text' Georgia, serif;
 	font-size: 16px;
 	line-height: 1.5em;
-	color: #000;
+	color: #251101;
 
 
 
 }
 
 .main-text {
-	font-family: Georgia, "Times New Roman",Times,serif;
+	font-family: 'Crimson Text' Georgia, serif;
 	font-size: 16px;
 	line-height: 2em;
 	color: #b5925a;
@@ -26,12 +26,23 @@ page-front  {
 
 }
 
-.h3 {
-
-	font-family: Georgia, "Times New Roman",Times,serif;
-	font-size: 16px;
+.title {
+	font-family: 'Arapey', serif;
+	font-size: 30px;
 	line-height: 2em;
 	text-align: center;
-	font-family: 'Crimson Text', serif;
+	color: #b5925a;
+
+}
+
+.pagetitle {
+	font-family: 'Crimson Text' Georgia, serif;
+	font-size: 30px;
+	line-height: 2em;
+	color: #b5925a;
+	text-align: center;
+
+	{
+
 
 }
